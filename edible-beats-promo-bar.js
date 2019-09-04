@@ -51,14 +51,17 @@
     }, false);
 
     // style
-    bar.style.backgroundColor = styles.backgroundColor;
-    bar.style.color = styles.fontColor;
     bar.style.cursor = 'pointer';
-    bar.style.fontFamily = styles.fontFamily;
     bar.style.fontSize = '14px';
     bar.style.lineHeight = '40px';
     bar.style.textAlign = 'center';
-    bar.style.position = styles.position;
+
+    if(styles !== null) {
+      if(typeof styles.backgroundColor !== 'undefined') bar.style.backgroundColor = styles.backgroundColor;
+      if(typeof styles.fontColor !== 'undefined') bar.style.color = styles.fontColor;
+      if(typeof styles.fontFamily !== 'undefined') bar.style.fontFamily = styles.fontFamily;
+      if(typeof styles.position !== 'undefined') bar.style.position = styles.position;
+    }
 
     // content
     bar.innerText = settings[name].flash;
