@@ -6,14 +6,14 @@ Contact [Matt Wiggins](mailto:matt@consumeandcreate.co) at Consume & Create or s
 ## Install
 Two easy steps.
 
-1. Put this in your markup where you would like to place the promo and set your desired position, background color, font color and font family. Leave the height set to 40px if you don't want a jump / reflow when the promo bar renders.
+Put this in your markup where you would like to place the promo and set your desired position, background color, font color and font family. Leave the height set to 40px if you don't want a jump / reflow when the promo bar renders.
 ```
 <div id="edible-beats-promo-bar" style="height: 40px !important" data-settings='{"position": "inline", "backgroundColor": "#ff0", "fontColor": "#fff", "fontFamily": "Helvetica"}'></div>
 ```
 
-2. Add the following JS embed anywhere on the page.
+Add the following JS embed anywhere on the page.
 ```
-<script src="edible-beats-promo-bar.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/consume-create/edible-beats-promo-bar/edible-beats-promo-bar.js" defer></script>
 ```
 
 ## Style
