@@ -1,8 +1,8 @@
 (function() {
   var bar = document.getElementById('edible-beats-promo-bar'),
-      url = 'www.elfivedenver.com' //window.location.host,
+      url = window.location.host,
       regx = /(elfivedenver)|(lingerdenver)|(opheliasdenver)|(rootdowndenver)|(rootdowndia)|(vitalrootdenver)|[^]/gi,
-      name = url.replace(regx, '$1$2$3$4$5$6'),
+      name = url.indexOf('localhost') !== -1 ? 'local' : url.replace(regx, '$1$2$3$4$5$6'),
       styles = JSON.parse(bar.getAttribute('data-settings')),
 
       // modify site specific settings
@@ -33,6 +33,11 @@
           'url': 'https://www.ediblebeats.com/zine'
         },
         'vitalrootdenver': {
+          'shown': true,
+          'flash': 'Get Our Book⁠—It Really Cooks!',
+          'url': 'https://www.ediblebeats.com/zine'
+        },
+        'local': {
           'shown': true,
           'flash': 'Get Our Book⁠—It Really Cooks!',
           'url': 'https://www.ediblebeats.com/zine'
