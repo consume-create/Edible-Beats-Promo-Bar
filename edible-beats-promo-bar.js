@@ -9,33 +9,33 @@
       settings = {
         'elfivedenver': {
           'shown': true,
-          'flash': 'Check out our new zine!',
+          'flash': 'Get Our Book⁠—It Really Cooks!',
           'url': 'http://www.ediblebeats.com'
         },
         'lingerdenver': {
           'shown': true,
-          'flash': 'Check out our new zine!',
-          'url': 'http://www.ediblebeats.com'
+          'flash': 'Get Our Book⁠—It Really Cooks!',
+          'url': 'https://www.ediblebeats.com/zine'
         },
         'opheliasdenver': {
           'shown': true,
-          'flash': 'Check out our new zine!',
-          'url': 'http://www.ediblebeats.com'
+          'flash': 'Get Our Book⁠—It Really Cooks!',
+          'url': 'https://www.ediblebeats.com/zine'
         },
         'rootdowndenver': {
           'shown': true,
-          'flash': 'Check out our new zine!',
-          'url': 'http://www.ediblebeats.com'
+          'flash': 'Get Our Book⁠—It Really Cooks!',
+          'url': 'https://www.ediblebeats.com/zine'
         },
         'rootdowndia': {
           'shown': true,
-          'flash': 'Check out our new zine!',
-          'url': 'http://www.ediblebeats.com'
+          'flash': 'Get Our Book⁠—It Really Cooks!',
+          'url': 'https://www.ediblebeats.com/zine'
         },
         'vitalrootdenver': {
           'shown': true,
-          'flash': 'Check out our new zine!',
-          'url': 'http://www.ediblebeats.com'
+          'flash': 'Get Our Book⁠—It Really Cooks!',
+          'url': 'https://www.ediblebeats.com/zine'
         }
       };
 
